@@ -14,9 +14,7 @@ To become a Junior SOC Analyst or Security Engineer
 Certifications
 
 - CompTIA A+, Network+, Security+
-- CompTIA CySA+, PenTest+
-- ISC2 SSCP, CCSP
-- AWS Certified Cloud Practitioner
+- ISC2 SSCP
 - ITIL v4 Foundations
 
 -----
