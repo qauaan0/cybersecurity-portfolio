@@ -1,4 +1,4 @@
-Cybersecurity Portfolio
+# Cybersecurity Portfolio
 
 Welcome! This repository showcases hands-on projects across two tracks:
 - **SOC Analyst (SOC Level 1)** → threat intel, SIEM, DFIR, phishing analysis
@@ -6,7 +6,7 @@ Welcome! This repository showcases hands-on projects across two tracks:
 
 ---
 
-SOC Analyst Projects
+## SOC Analyst Projects
 | Project | Focus | Tools | Deliverable |
 |---------|-------|-------|-------------|
 | [Lespion](./soc-level-1/lespion-threat-intel) | Threat Intel / OSINT | MISP, ATT&CK | IOC report & ATT&CK map |
@@ -18,7 +18,7 @@ SOC Analyst Projects
 
 ---
 
-## ⚙️ Security Engineering Projects
+## Security Engineering Projects
 | Project | Focus | Tools | Deliverable |
 |---------|-------|-------|-------------|
 | [FalconEye](./security-engineering/falconeye-threat-hunting) | Threat Hunting | Splunk | Detection rule creation |
@@ -28,5 +28,5 @@ SOC Analyst Projects
 
 ---
 
-## 🔧 Tools & Skills
+## Tools & Skills
 Splunk • ELK • Wireshark • Zeek • Sysmon • Wazuh • MISP • ATT&CK • Volatility • Autopsy • Python • Sigma • YARA
