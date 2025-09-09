@@ -9,22 +9,21 @@ Welcome! This repository showcases hands-on projects across two tracks:
 ## SOC Analyst Projects
 | Project | Focus | Tools | Deliverable |
 |---------|-------|-------|-------------|
-| [Lespion](./soc-level-1/lespion-threat-intel) | Threat Intel / OSINT | MISP, ATT&CK | IOC report & ATT&CK map |
-| [WebStrike](./soc-level-1/webstrike-network-analysis) | Network Traffic | Wireshark, Zeek | PCAP analysis report |
-| [Hunter](./soc-level-1/hunter-endpoint) | Endpoint Security | Sysmon, Wazuh | Log triage & detections |
-| [Bad Logic](./soc-level-1/bad-logic-siem) | SIEM | Splunk, Sigma | Detection queries |
-| [Countdown](./soc-level-1/countdown-dfir) | DFIR | Volatility, Autopsy | IR forensic case study |
-| [Phishy](./soc-level-1/phishy-phishing) | Phishing | CyberChef, Headers | Phishing report |
+| [Lespion] | Threat Intel / OSINT | MISP, ATT&CK | IOC report & ATT&CK map |
+| [WebStrike] | Network Traffic | Wireshark, Zeek | PCAP analysis report |
+| [Hunter] | Endpoint Security | Sysmon, Wazuh | Log triage & detections |
+| [Bad Logic] | SIEM | Splunk, Sigma | Detection queries |
+| [Countdown] | DFIR | Volatility, Autopsy | IR forensic case study |
+| [Phishy] | Phishing | CyberChef, Headers | Phishing report |
 
 ---
 
 ## Security Engineering Projects
 | Project | Focus | Tools | Deliverable |
 |---------|-------|-------|-------------|
-| [FalconEye](./security-engineering/falconeye-threat-hunting) | Threat Hunting | Splunk | Detection rule creation |
-| [Oski](./security-engineering/oski-threat-intel) | Threat Intel | MISP, ATT&CK | Threat model & risk mapping |
-| [IcedID](./security-engineering/icedid-malware-analysis) | Malware / Software Security | YARA, Sysinternals | Malware detection notes |
-| [Incident Simulation](./security-engineering/incident-response-simulation) | IR Management | Splunk, ELK | Incident report |
+| [FalconEye] | Threat Hunting | Splunk | Detection rule creation |
+| [Oski] | Threat Intel | MISP, ATT&CK | Threat model & risk mapping |
+| [IcedID] | Malware / Software Security | YARA, Sysinternals | Malware detection notes |
 
 ---
 
