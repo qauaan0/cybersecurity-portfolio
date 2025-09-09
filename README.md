@@ -1,52 +1,32 @@
-Cybersecurity Portfolio by Quan Cao
+Cybersecurity Portfolio
 
-Welcome to my Cybersecurity Portfolio!  
-I'm a cybersecurity student.
+Welcome! This repository showcases hands-on projects across two tracks:
+- **SOC Analyst (SOC Level 1)** → threat intel, SIEM, DFIR, phishing analysis
+- **Security Engineering** → detection engineering, hardening, incident simulation
 
------
+---
 
-Career Goal
+SOC Analyst Projects
+| Project | Focus | Tools | Deliverable |
+|---------|-------|-------|-------------|
+| [Lespion](./soc-level-1/lespion-threat-intel) | Threat Intel / OSINT | MISP, ATT&CK | IOC report & ATT&CK map |
+| [WebStrike](./soc-level-1/webstrike-network-analysis) | Network Traffic | Wireshark, Zeek | PCAP analysis report |
+| [Hunter](./soc-level-1/hunter-endpoint) | Endpoint Security | Sysmon, Wazuh | Log triage & detections |
+| [Bad Logic](./soc-level-1/bad-logic-siem) | SIEM | Splunk, Sigma | Detection queries |
+| [Countdown](./soc-level-1/countdown-dfir) | DFIR | Volatility, Autopsy | IR forensic case study |
+| [Phishy](./soc-level-1/phishy-phishing) | Phishing | CyberChef, Headers | Phishing report |
 
-To become a Junior SOC Analyst or Security Engineer
+---
 
------
+## ⚙️ Security Engineering Projects
+| Project | Focus | Tools | Deliverable |
+|---------|-------|-------|-------------|
+| [FalconEye](./security-engineering/falconeye-threat-hunting) | Threat Hunting | Splunk | Detection rule creation |
+| [Oski](./security-engineering/oski-threat-intel) | Threat Intel | MISP, ATT&CK | Threat model & risk mapping |
+| [IcedID](./security-engineering/icedid-malware-analysis) | Malware / Software Security | YARA, Sysinternals | Malware detection notes |
+| [Incident Simulation](./security-engineering/incident-response-simulation) | IR Management | Splunk, ELK | Incident report |
 
-Certifications
+---
 
-- CompTIA A+, Network+, Security+
-- ISC2 SSCP
-- ITIL v4 Foundations
-
------
-
-Repo Structure
-
-| Folder | Description |
-|--------|-------------|
-| [`/SIEM-Detections/`](./SIEM-Detections) | Detection logic for brute force, phishing, and other MITRE ATT&CK techniques |
-| [`/Scripting-Projects/`](./Scripting-Projects) | Python scripts for log parsing, automation, and alerting |
-| [`/Reports/`](./Reports) | Incident response writeups and alert investigation summaries |
-| [`/Resources/`](./Resources) _(optional)_ | Markdown cheat sheets (Linux, Event IDs, commands)
-
------
-
-Tools & Platforms
-
-- TryHackMe (SOC Level 1 & 2 Paths)
-- Python 3
-- Splunk / Elastic SIEM
-- Wireshark
-- Git & GitHub
-- Windows Event Viewer
-- MITRE ATT&CK Framework
-
------
-
-Connect With Me
-
-- [LinkedIn]
-- Email: caoq08@gmail.com
-
------
-
-> 💡 This portfolio is constantly evolving as I grow my skills — check back often or explore the folders above for current projects!
+## 🔧 Tools & Skills
+Splunk • ELK • Wireshark • Zeek • Sysmon • Wazuh • MISP • ATT&CK • Volatility • Autopsy • Python • Sigma • YARA
