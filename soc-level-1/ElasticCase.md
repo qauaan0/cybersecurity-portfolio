@@ -74,7 +74,7 @@ Feb 3, 2022 @ 02:09:22 - User "solr" runs netcat on host "CentOS"
 1. Context is critical in investigations. Each finding builds on the previous one. Understanding how questions and events connect to each other is what separates 
 isolated observations from a coherent attack narrative.
 
-2. Chronological ordering reveals the full picture sorting events by timestamp rather than investigation order exposed that the system was already compromised before the main attack chain began, which would have been missed otherwise.
+2. Chronological ordering reveals the full picture. Sorting events by timestamp rather than investigation order exposed that the system was already compromised before the main attack chain began, which would have been missed otherwise.
 
 3. Kibana as an investigative tool. I gained hands-on experience navigating Kibana's Discover view, alert dashboard, and process tree analyzer to pivot across multiple 
 log sources and reconstruct attacker activity.
