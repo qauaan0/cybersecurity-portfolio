@@ -1,13 +1,30 @@
 # Title  
-Elastic Case 
-# Summary  
+Elastic Case - Malware Investigation
 
-# Investigation Steps  
 
-# IOCs  
+# Tools and Environment 
+Elastic SIEM in a simulated lab environment
 
-# MITRE  
 
-# Detection Logic  
+# Context
+An employee was tricked into downloading and running a malicious file. 
+On top of that, the systems were not updated and the attacker was able to pivot within the compromised system. 
 
-# Recommendations
+
+
+# Attack Timeline
+Feb 22, 2022 @ 18:08: Employee "ahmed" downloads the malicious file "Acount_details.pdf.exe" on host DESKTOP-Q1SL9P2
+
+
+
+# Key Findings 
+
+
+
+# Indicators of Compromise (IoCs)
+
+
+
+# Lessons Learned 
+
+
