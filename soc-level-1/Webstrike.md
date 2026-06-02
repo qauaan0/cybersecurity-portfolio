@@ -9,11 +9,15 @@ Tools: Wireshark in a simulated lab environment
 A suspicious file was identified on a company web server, and the network team captured network traffic in the form of a PCAP file. 
 
 ## IOCs
-| Attacker IP: 117.11.88.124
-| User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0
-| Malicious File: image.jpg.php
-| Upload Directory: /reviews/uploads
-| C2 Port: 8080
+Attacker IP: 117.11.88.124
+
+User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0
+
+Malicious File: image.jpg.php
+
+Upload Directory: /reviews/uploads
+
+C2 Port: 8080
 
 ## Attack Timeline
 1. 2023-11-30 18:43:28 - Attacker IP: 117.11.88.124 from China browses the website normally.
