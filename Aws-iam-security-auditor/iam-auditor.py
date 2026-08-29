@@ -99,7 +99,7 @@ with open("iam_report.csv", "w", newline='') as file:
             risk_level = "Low"
             print (risk_level, username, "in group: ", group_names, "with score of: ", score, "\n with reason being: ", findings)
         else:
-            risk_level = "Negligible"
+            risk_level = "Safe"
             print (risk_level, username)
 
         writer.writerow([username, group_names, score, risk_level, findings])
