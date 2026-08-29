@@ -9,6 +9,7 @@ I tested this against IAM users provisioned within my personal AWS free tier acc
 Refer to the [IAM Auditor Flowchart](./iam-auditor-flowchart.png) within this folder to see the architecture.
 
 ## Security Checks 
+Scoring Methodology: Risk scores are cumulative. Users can accrue points from multiple findings, since combined risks (an overprivileged policy and no MFA) represent greater overall exposure. Weights were assigned based on my own judgment of relative severity; for example, full administrative access poses more immediate risk than a single stale access key.
 
 | Finding | Risk Score |
 |---|---:|
@@ -49,3 +50,4 @@ The auditor generates a CSV report summarizing each IAM user's group membership,
 - Add pagination to support larger IAM environments
 - Detect inactive access keys
 - Detect wildcard permissions
+- Align my risk scoring with official framework like CIS or AWS Security Hub
