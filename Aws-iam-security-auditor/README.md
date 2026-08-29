@@ -50,4 +50,4 @@ The auditor generates a CSV report summarizing each IAM user's group membership,
 - Add pagination to support larger IAM environments
 - Detect inactive access keys
 - Detect wildcard permissions
-- Align my risk scoring with official framework like CIS or AWS Security Hub
+- Align risk scoring with CIS AWS Foundations Benchmark or AWS Security Hub controls
