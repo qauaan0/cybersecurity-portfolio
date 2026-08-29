@@ -9,6 +9,13 @@ Poor IAM hygiene is far too common in IAM environments despite being relatively 
 This project explores how IAM security reviews can be automated with Python.
 
 ## Architecture / How It Works
-Refer to the iam-auditor_flowchart within this folder
+Refer to the iam-auditor-flowchart within this folder
 
-##
+## Security Checks 
+| Finding | Risk Score |
+|---|---:|
+| High-risk policy | +25 |
+| Medium-risk policy | +10 |
+| Low-risk policy | +5 |
+| Missing MFA | +20 |
+| Access key older than 90 days | +5 |
