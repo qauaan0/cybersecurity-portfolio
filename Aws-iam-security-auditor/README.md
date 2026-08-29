@@ -34,3 +34,8 @@ The auditor generates a CSV report summarizing each IAM user's group membership,
 
 <img width="894" height="195" alt="image" src="https://github.com/user-attachments/assets/7c726080-18e7-422c-a711-942e9c72edfd" />
 
+## Technologies Used
+- Python
+- Boto3
+- AWS IAM
+- CSV
