@@ -31,4 +31,5 @@ Refer to the [IAM Auditor Flowchart](./iam-auditor-flowchart.png) within this fo
 
 ## Example Findings
 (with a simulated AWS environment)
+<img width="894" height="195" alt="image" src="https://github.com/user-attachments/assets/7c726080-18e7-422c-a711-942e9c72edfd" />
 
