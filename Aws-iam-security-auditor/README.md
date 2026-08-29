@@ -3,6 +3,8 @@
 ## Overview
 This tool audits IAM users in an AWS environment and determines their risk through missing MFA, stale access keys, and overprivileged policies. These are common security risks but often go unnoticed until an incident. Manually auditing IAM doesn't scale past a handful of users, so this automates the review and outputs a CSV risk report.
 
+I tested this against IAM users provisioned within my personal AWS free tier account.
+
 ## Architecture / How It Works
 Refer to the [IAM Auditor Flowchart](./iam-auditor-flowchart.png) within this folder to see the architecture.
 
