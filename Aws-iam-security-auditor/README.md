@@ -19,3 +19,12 @@ Refer to the [IAM Auditor Flowchart](./iam-auditor-flowchart.png) within this fo
 | Low-risk policy | +5 |
 | Missing MFA | +20 |
 | Access key older than 90 days | +5 |
+
+### Risk Levels
+
+| Score | Risk Level |
+|---|---|
+| 40+ | High |
+| 20–39 | Medium |
+| 1–19 | Low |
+| 0 | Safe |
