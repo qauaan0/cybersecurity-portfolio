@@ -47,7 +47,8 @@ The auditor generates a CSV report summarizing each IAM user's group membership,
 - Breaking the project into smaller steps made troubleshooting API calls and Python logic much easier.
 
 ## Future Improvements 
-- Add pagination to support larger IAM environments
-- Detect inactive access keys
+- Analyze IAM policy JSON to evaluate actual permissions rather than relying on policy names
 - Detect wildcard permissions
+- Detect inactive access keys
 - Align risk scoring with CIS AWS Foundations Benchmark or AWS Security Hub controls
+- Add pagination to support larger IAM environments
