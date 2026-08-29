@@ -6,7 +6,7 @@ This tool scans everyone users for their permissions, MFA, and access keys.
 
 ## Purpose
 Poor IAM hygiene is far too common in IAM environments despite being relatively simple to bolster. 
-This project explores how IAM security reviews can be automated with Python.
+After earning the AWS Certified Cloud Practitioner, I built this project to explore how IAM security reviews can be automated with Python.
 
 ## Architecture / How It Works
 Refer to the [IAM Auditor Flowchart](./iam-auditor-flowchart.png) within this folder to see the architecture.
@@ -39,3 +39,11 @@ The auditor generates a CSV report summarizing each IAM user's group membership,
 - Boto3
 - AWS IAM
 - CSV
+
+## What I Learned
+
+## Limitations
+
+## Future Improvements 
+
+
