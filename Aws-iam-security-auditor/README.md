@@ -7,6 +7,7 @@ This tool audits IAM users in an AWS environment and determines their risk throu
 Refer to the [IAM Auditor Flowchart](./iam-auditor-flowchart.png) within this folder to see the architecture.
 
 ## Security Checks 
+
 | Finding | Risk Score |
 |---|---:|
 | High-risk policy | +25 |
@@ -44,5 +45,3 @@ The auditor generates a CSV report summarizing each IAM user's group membership,
 - Add pagination to support larger IAM environments
 - Detect inactive access keys
 - Detect wildcard permissions
-
-
