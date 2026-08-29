@@ -5,8 +5,7 @@ This project is a Python-based AWS IAM auditing tool that uses Boto3 to identify
 This tool scans everyone users for their permissions, MFA, and access keys.
 
 ## Purpose
-Poor IAM hygiene is far too common in IAM environments despite being relatively simple to bolster. 
-
+Poor IAM hygiene is far too common in IAM environments despite being relatively simple to bolster.            
 After earning the AWS Certified Cloud Practitioner, I built this project to explore how IAM security reviews can be automated with Python.
 
 ## Architecture / How It Works
