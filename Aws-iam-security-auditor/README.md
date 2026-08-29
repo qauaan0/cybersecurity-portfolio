@@ -1,8 +1,8 @@
 # AWS IAM Security Auditor Write-Up
 
 ## Overview
-This project is a Python-based AWS IAM auditing tool that uses Boto3 to identify potential security vulnerabilities. 
-This tool scans everyone users for their permissions, MFA, and access keys.
+This project is a Python-based AWS IAM auditing tool that uses Boto3 to identify potential security risks. 
+In a simulated AWS environment, this tool scans IAM users for their permissions, MFA, and access keys.
 
 ## Purpose
 Poor IAM hygiene is far too common in IAM environments despite being relatively simple to bolster.            
@@ -41,9 +41,13 @@ The auditor generates a CSV report summarizing each IAM user's group membership,
 - CSV
 
 ## What I Learned
-
-## Limitations
+- Reading documentation before working with new technologies is extremely valuable. Documentation provides exact required parameters, expected input types, and API response structures.
+- Logic errors can pass testing silently if test data doesn't cover any edge cases. Testing against different IAM configurations helped me identify issues that weren't immediately obvious.
+- Breaking the project into smaller steps made troubleshooting API calls and Python logic much easier.
 
 ## Future Improvements 
+- Add pagination to support larger IAM environments
+- Detect inactive access keys
+- Detect wildcard permissions
 
 
