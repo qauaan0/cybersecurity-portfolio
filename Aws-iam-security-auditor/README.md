@@ -9,7 +9,7 @@ Poor IAM hygiene is far too common in IAM environments despite being relatively 
 This project explores how IAM security reviews can be automated with Python.
 
 ## Architecture / How It Works
-Refer to [View the IAM Auditor Flowchart](./iam-auditor-flowchart.png) within this folder
+Refer to the [IAM Auditor Flowchart](./iam-auditor-flowchart.png) within this folder to see the architecture.
 
 ## Security Checks 
 | Finding | Risk Score |
