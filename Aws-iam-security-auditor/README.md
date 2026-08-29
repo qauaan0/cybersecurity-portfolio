@@ -32,7 +32,7 @@ The auditor generates a CSV report summarizing each IAM user's group membership,
 
 <img width="894" height="195" alt="image" src="https://github.com/user-attachments/assets/7c726080-18e7-422c-a711-942e9c72edfd" />
 
-**LegacyServiceS3Access and ContractorS3Access are custom test policies. 
+**Note:** 'LegacyServiceS3Access' and 'ContractorS3Access' are custom test policies. 
 
 ## Technologies Used
 - Python
