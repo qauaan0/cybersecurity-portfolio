@@ -28,3 +28,7 @@ Refer to the [IAM Auditor Flowchart](./iam-auditor-flowchart.png) within this fo
 | 20–39 | Medium |
 | 1–19 | Low |
 | 0 | Safe |
+
+## Example Findings
+(with a simulated AWS environment)
+
