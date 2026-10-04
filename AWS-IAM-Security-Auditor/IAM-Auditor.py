@@ -11,7 +11,7 @@ names_list = client.list_users()
 
 with open("iam_report.csv", "w", newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Username", "Groups", "Risk Score", "Risk Level", "Findings"])
+    writer.writerow(["Username", "Groups", "Risk Score", "Risk Level", "Findings", "Unknown Policies (Please Review)"])
 
 # Enumerate IAM Users
 
@@ -65,6 +65,7 @@ with open("iam_report.csv", "w", newline='') as file:
 
         score = 0
         findings = []
+        unknown_policies = []
         combined_policies = managed_user_policy_names + inline_user_policy_names + managed_group_policy_names + inline_group_policy_names
         high_risk_policies = ["AdministratorAccess", "PowerUserAccess"]
         medium_risk_policies = ["IAMReadOnlyAccess", "ReadOnlyAccess", "SecurityAudit", "AmazonS3ReadOnlyAccess", "LegacyServiceS3Access",]
@@ -79,6 +80,8 @@ with open("iam_report.csv", "w", newline='') as file:
             elif policy_name in low_risk_policies:
                 score += 5
                 findings.append(policy_name)
+            else:
+                unknown_policies.append("Unclassified Policy: " + policy_name)
         
 # Risk Classification and Scoring
 
@@ -99,7 +102,7 @@ with open("iam_report.csv", "w", newline='') as file:
             risk_level = "Low"
             print (risk_level, username, "in group: ", group_names, "with score of: ", score, "\n with reason being: ", findings)
         else:
-            risk_level = "Safe"
+            risk_level = "Negligible"
             print (risk_level, username)
 
-        writer.writerow([username, group_names, score, risk_level, findings])
+        writer.writerow([username, group_names, score, risk_level, findings, unknown_policies])
