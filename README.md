@@ -1,7 +1,7 @@
 # Welcome to my Cybersecurity Portfolio!
 My name is Quan, and I'm currently pursuing a B.S. in Cybersecurity and Information Assurance.
 
-This portfolio showcases my hands-on projects I've built outside of my coursework.
+This portfolio showcases my hands-on projects I've worked on outside of my coursework.
 
 ## Projects
 [Windows & Linux Infrastructure Homelab](https://github.com/qauaan0/cybersecurity-portfolio/tree/main/Windows-Linux-Infrastructure-Homelab)
