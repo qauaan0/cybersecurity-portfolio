@@ -31,7 +31,8 @@ Scoring Methodology: Risk scores are cumulative. Users can accrue points from mu
 ## Example Findings
 The auditor generates a CSV report summarizing each IAM user's group membership, calculated risk score, risk level, and detected security findings.
 
-<img width="894" height="195" alt="image" src="https://github.com/user-attachments/assets/7c726080-18e7-422c-a711-942e9c72edfd" />
+<img width="678" height="196" alt="ss" src="https://github.com/user-attachments/assets/c299f9f8-0fb0-46c9-a766-6b1f1f5b151a" />
+
 
 **Note:** 'LegacyServiceS3Access' and 'ContractorS3Access' are custom test policies. 
 
