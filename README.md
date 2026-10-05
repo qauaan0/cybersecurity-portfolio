@@ -10,7 +10,7 @@ This is my most recent project where I built a 3-VM VMware lab using Windows Ser
 
 [AWS Security IAM Auditor](https://github.com/qauaan0/cybersecurity-portfolio/tree/main/AWS-IAM-Security-Auditor)
 
-After earning the AWS CCP and learning Python through CS50P, I built a Python/Boto3 IAM auditing tool that reviews users, groups, policies, MFA, and access keys, applies risk scoring, and exports prioritized findings to CSV.
+After earning the AWS CCP and learning Python through CS50P, I built a Python/Boto3 IAM auditing tool that reviews users, groups, policies, MFA, and access keys, applies risk scoring, and exports these findings to CSV.
 
 [CyberDefender Labs](https://github.com/qauaan0/cybersecurity-portfolio/tree/main/CyberDefenders)
 
