@@ -70,7 +70,7 @@ Feb 3, 2022 @ 02:09:22 - User "solr" runs netcat on host "CentOS"
 1. Multiple systems compromised
 2. File was disguised to trick users pdf.exe
 3. User "cybery" was a privileged account which made attacks increased attacker's impact.
-4. System was compromised before the initial main attack chain began.
+4. Earlier suspicious activity was identified before the more obvious attack stages, highlighting the importance of reviewing preceding events when reconstructing an incident timeline.
 5. Reverse shell used to maintain access. 
 6. C2 traffic stayed internal (reverse shell connected to internal IP: 192.168.1.10)
 
