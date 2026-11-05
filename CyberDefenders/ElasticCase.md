@@ -15,7 +15,7 @@ On top of that, the systems were not updated and the attacker was able to pivot 
 
 ## Attack Timeline
 
-### [Pre-Compromise Activity]  
+### [Suspicious Pre-Compromise Activity]  
 
 Feb 2, 2022 @ 16:58:17 - rundll32.exe accesses registry key HKLM\SYSTEM\ControlSet001\Control\Lsa\  
 
