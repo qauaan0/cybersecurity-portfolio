@@ -14,4 +14,4 @@ After earning the AWS CCP and learning Python through CS50P, I built a Python/Bo
 
 [CyberDefender Labs](https://github.com/qauaan0/cybersecurity-portfolio/tree/main/CyberDefenders)
 
-I first started building hands-on security experience through guided CyberDefenders labs.
+I first started building hands-on security experience through Webstrike.
